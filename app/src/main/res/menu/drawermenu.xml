@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/db" android:title="drawer" android:icon="@drawable/ic_android_black_24dp"/>
+    <item android:id="@+id/events" android:title="events" android:icon="@drawable/ic_battery_30_black_24dp"/>
+    <item android:id="@+id/search" android:title="search" android:icon="@drawable/ic_launcher_foreground"/>
+    <item android:id="@+id/setting" android:title="setting" android:icon="@drawable/ic_backup_black_24dp"/>
+    <item android:id="@+id/activity" android:title="activity" android:icon="@drawable/ic_launcher_background"/>
+    <item android:id="@+id/logout" android:title="logout" android:icon="@drawable/ic_apps_black_24dp"/>
+</menu>

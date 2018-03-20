@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dlalalwafy.loginregister.AdminYanbuActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="413dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:layout_above="@+id/editText7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="15dp"
+            android:text="Name D" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="60dp"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@+id/editText7"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/editText7"
+            android:layout_toStartOf="@+id/editText7"
+            android:text="phone D"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="41dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="36dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10"
+            android:inputType="phone"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="60dp"
+            android:layout_height="32dp"
+            android:layout_above="@+id/editText11"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/editText12"
+            android:layout_toRightOf="@+id/editText12"
+            android:text="Location" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/editText11"
+            android:layout_toEndOf="@+id/textView6"
+            android:layout_toRightOf="@+id/textView6"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="60dp"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@+id/editText7"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:text="T.Leave" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_toEndOf="@+id/textView6"
+            android:layout_toRightOf="@+id/textView6"
+            android:ems="10"
+            android:inputType="time" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/bAddnew"
+        android:layout_width="410dp"
+        android:layout_height="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.24">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="15dp"
+                android:text="name"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="115dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:text="phone" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="ID" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="5dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="1" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="212dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:onClick="buEdit"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="549dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="2-"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="212dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:onClick="buedit2"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="549dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="3-"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="212dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:onClick="buedit3"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="549dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="4-"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="212dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="45dp"
+                android:layout_height="32dp"
+                android:onClick="buedit4"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="549dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="5-"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="212dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:onClick="buedit5"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="549dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="6-"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="212dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:onClick="buedit6"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="549dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:paddingLeft="5dp"
+                android:text="7-"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:layout_editor_absoluteX="345dp"
+                tools:layout_editor_absoluteY="212dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:onClick="buedit7"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="294dp"
+                tools:layout_editor_absoluteY="549dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:onClick="buClickAddnew"
+        android:text="Add New"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bAddnew" />
+
+</android.support.constraint.ConstraintLayout>
